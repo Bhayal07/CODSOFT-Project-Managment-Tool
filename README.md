@@ -1,84 +1,89 @@
-🛠️ Project Management Tool
-A full-featured Project Management Tool built to help teams organize, collaborate, and deliver efficiently. This tool includes task tracking, project timelines, team collaboration, and status monitoring features.
+Project Management Tool
+Overview
+Welcome to the Project Management Tool! This application helps users organize tasks, track progress, and collaborate with team members effectively. It includes features like project creation, task assignment, progress updates, and more — all packed into a clean and responsive interface.
 
-🌐 Live Demo
-🔗 (coming soon) 
+Live Website
+🔗 (Coming Soon) – Deployed version link will be added once hosted.
 
-📌 Features
-  * 🗂️ Project & Task Management
+Features
+Project Dashboard: Manage multiple projects in one place.
 
-  * ✅ Task Status: To-do, In-progress, Completed
+Task Tracking: Create, update, and mark tasks as complete.
 
-  * 👥 Team Assignment
+User Assignment: Assign tasks to team members.
 
-  * 📅 Deadlines & Scheduling
+Deadline Reminders: Stay on track with due date alerts.
 
-  * 🔔 Notifications & Reminders
+Real-Time Updates: Get updates without page reloads (if WebSocket/API enabled).
 
-  * 📊 Dashboards and Analytics
+Responsive Design: Seamlessly usable on mobile, tablet, and desktop.
 
-  * 📁 File Uploads / Attachments
+File Structure
+client/ - Frontend of the application.
 
-  * 📝 Real-time Comments / Notes
+server/ - Backend APIs and database connection.
 
+README.md - Documentation file.
 
-🛠️ Tech Stack
+.env - (Optional) Environment variables configuration.
 
-Frontend:
-
-  * React.js / HTML / CSS / JavaScript
-
-  * Tailwind CSS / Bootstrap (if used)
-
-Backend:
-
-  * Node.js / Express.js
-
-  * MongoDB / PostgreSQL / Firebase (based on stack)
-
-Others:
-
-  * JWT Auth / OAuth
-
-  * RESTful API
-
-  * WebSockets (for real-time updates)
-
-🚀 Getting Started
-
-Prerequisites
-  
-  * Node.js & npm installed
-  * MongoDB (or your chosen DB) running locally or on cloud
+package.json - Dependency management (for Node-based setup).
 
 Installation
+Clone the repository:
 
-  # Clone the repository
-  git clone https://github.com/yourusername/project-management-tool.git
-  cd project-management-tool
+sh
+Copy
+Edit
+git clone https://github.com/Bhayal07/Project-Managment-Tool.git
+cd Project-Managment-Tool
+Install dependencies:
 
-  # Install dependencies
-  npm install
+sh
+Copy
+Edit
+npm install
+Run the app:
 
-  # Start the application
-  npm start
+sh
+Copy
+Edit
+npm start
+Or if it's a full stack app:
 
-📁 Folder Structure (Example)
+sh
+Copy
+Edit
+cd server
+npm install
+npm start
 
-  project-management-tool/
-  ├── client/             # Frontend files
-  ├── server/             # Backend APIs
-  ├── .env                # Environment variables
-  ├── package.json
-  ├── README.md
+cd ../client
+npm install
+npm start
+Technologies Used
+HTML/CSS/JavaScript – Interface design
 
+React.js – Frontend framework (if used)
 
+Node.js + Express.js – Backend API
 
-👨‍💻 Author
-Chirag Bhayal
+MongoDB / PostgreSQL – Database (whichever applies)
 
-📧 chiragbhayal7@gmail.com
+JWT / OAuth – Authentication
 
+RESTful APIs – Data communication
 
-📄 License
+How to Contribute
+If you’d like to contribute:
+
+Fork the repository.
+
+Make your changes.
+
+Submit a pull request.
+
+License
 This project is licensed under the MIT License.
+
+Developed by Chirag Bhayal
