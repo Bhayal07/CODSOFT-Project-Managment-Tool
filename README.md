@@ -7,7 +7,7 @@ Welcome to the **Project Management Tool**! This application helps users organiz
 
 ## Live Website
 
-🔗 **(Coming Soon)** – Deployed version link will be added once hosted.
+🔗 ** https://collabio-lovat.vercel.app/
 
 ## Features
 
