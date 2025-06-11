@@ -2,52 +2,54 @@
 A full-featured Project Management Tool built to help teams organize, collaborate, and deliver efficiently. This tool includes task tracking, project timelines, team collaboration, and status monitoring features.
 
 🌐 Live Demo
-🔗 View Project (Replace with actual deployment link)
+🔗 (coming soon) 
 
 📌 Features
-🗂️ Project & Task Management
+  * 🗂️ Project & Task Management
 
-✅ Task Status: To-do, In-progress, Completed
+  * ✅ Task Status: To-do, In-progress, Completed
 
-👥 Team Assignment
+  * 👥 Team Assignment
 
-📅 Deadlines & Scheduling
+  * 📅 Deadlines & Scheduling
 
-🔔 Notifications & Reminders
+  * 🔔 Notifications & Reminders
 
-📊 Dashboards and Analytics
+  * 📊 Dashboards and Analytics
 
-📁 File Uploads / Attachments
+  * 📁 File Uploads / Attachments
 
-📝 Real-time Comments / Notes
+  * 📝 Real-time Comments / Notes
+
 
 🛠️ Tech Stack
+
 Frontend:
 
-React.js / HTML / CSS / JavaScript
+  * React.js / HTML / CSS / JavaScript
 
-Tailwind CSS / Bootstrap (if used)
+  * Tailwind CSS / Bootstrap (if used)
 
 Backend:
 
-Node.js / Express.js
+  * Node.js / Express.js
 
-MongoDB / PostgreSQL / Firebase (based on stack)
+  * MongoDB / PostgreSQL / Firebase (based on stack)
 
 Others:
 
-JWT Auth / OAuth
+  * JWT Auth / OAuth
 
-RESTful API
+  * RESTful API
 
-WebSockets (for real-time updates)
+  * WebSockets (for real-time updates)
 
 🚀 Getting Started
 
 Prerequisites
   
-  Node.js & npm installed
-  MongoDB (or your chosen DB) running locally or on cloud
+  * Node.js & npm installed
+  * MongoDB (or your chosen DB) running locally or on cloud
 
 Installation
 
