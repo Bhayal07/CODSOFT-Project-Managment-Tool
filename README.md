@@ -1,89 +1,85 @@
-Project Management Tool
-Overview
-Welcome to the Project Management Tool! This application helps users organize tasks, track progress, and collaborate with team members effectively. It includes features like project creation, task assignment, progress updates, and more — all packed into a clean and responsive interface.
 
-Live Website
-🔗 (Coming Soon) – Deployed version link will be added once hosted.
+# Project Management Tool
 
-Features
-Project Dashboard: Manage multiple projects in one place.
+## Overview
 
-Task Tracking: Create, update, and mark tasks as complete.
+Welcome to the **Project Management Tool**! This application helps users organize tasks, track progress, and collaborate with team members effectively. It includes features like project creation, task assignment, progress updates, and more — all packed into a clean and responsive interface.
 
-User Assignment: Assign tasks to team members.
+## Live Website
 
-Deadline Reminders: Stay on track with due date alerts.
+🔗 **(Coming Soon)** – Deployed version link will be added once hosted.
 
-Real-Time Updates: Get updates without page reloads (if WebSocket/API enabled).
+## Features
 
-Responsive Design: Seamlessly usable on mobile, tablet, and desktop.
+* **Project Dashboard**: Manage multiple projects in one place.
+* **Task Tracking**: Create, update, and mark tasks as complete.
+* **User Assignment**: Assign tasks to team members.
+* **Deadline Reminders**: Stay on track with due date alerts.
+* **Real-Time Updates**: Get updates without page reloads (if WebSocket/API enabled).
+* **Responsive Design**: Seamlessly usable on mobile, tablet, and desktop.
 
-File Structure
-client/ - Frontend of the application.
+## File Structure
 
-server/ - Backend APIs and database connection.
+* `client/` - Frontend of the application.
+* `server/` - Backend APIs and database connection.
+* `README.md` - Documentation file.
+* `.env` - (Optional) Environment variables configuration.
+* `package.json` - Dependency management (for Node-based setup).
 
-README.md - Documentation file.
+## Installation
 
-.env - (Optional) Environment variables configuration.
+1. Clone the repository:
 
-package.json - Dependency management (for Node-based setup).
+   ```sh
+   git clone https://github.com/Bhayal07/Project-Managment-Tool.git
+   cd Project-Managment-Tool
+   ```
 
-Installation
-Clone the repository:
+2. Install dependencies:
 
-sh
-Copy
-Edit
-git clone https://github.com/Bhayal07/Project-Managment-Tool.git
-cd Project-Managment-Tool
-Install dependencies:
+   ```sh
+   npm install
+   ```
 
-sh
-Copy
-Edit
-npm install
-Run the app:
+3. Run the app:
 
-sh
-Copy
-Edit
-npm start
-Or if it's a full stack app:
+   ```sh
+   npm start
+   ```
 
-sh
-Copy
-Edit
-cd server
-npm install
-npm start
+   Or if it's a full stack app:
 
-cd ../client
-npm install
-npm start
-Technologies Used
-HTML/CSS/JavaScript – Interface design
+   ```sh
+   cd server
+   npm install
+   npm start
 
-React.js – Frontend framework (if used)
+   cd ../client
+   npm install
+   npm start
+   ```
 
-Node.js + Express.js – Backend API
+## Technologies Used
 
-MongoDB / PostgreSQL – Database (whichever applies)
+* **HTML/CSS/JavaScript** – Interface design
+* **React.js** – Frontend framework (if used)
+* **Node.js + Express.js** – Backend API
+* **MongoDB / PostgreSQL** – Database (whichever applies)
+* **JWT / OAuth** – Authentication
+* **RESTful APIs** – Data communication
 
-JWT / OAuth – Authentication
+## How to Contribute
 
-RESTful APIs – Data communication
-
-How to Contribute
 If you’d like to contribute:
 
-Fork the repository.
+1. Fork the repository.
+2. Make your changes.
+3. Submit a pull request.
 
-Make your changes.
+## License
 
-Submit a pull request.
-
-License
 This project is licensed under the MIT License.
 
-Developed by Chirag Bhayal
+---
+
+*Developed by Chirag Bhayal*
