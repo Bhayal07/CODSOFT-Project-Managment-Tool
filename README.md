@@ -31,7 +31,7 @@ Welcome to the **Project Management Tool**! This application helps users organiz
 1. Clone the repository:
 
    ```sh
-   git clone https://github.com/Bhayal07/Project-Managment-Tool.git
+   git clone https://github.com/chiragbhayal/Project-Managment-Tool.git
    cd Project-Managment-Tool
    ```
 
